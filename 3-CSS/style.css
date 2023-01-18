@@ -1,0 +1,28 @@
+/* Why we need external css is to overcome the limitaion of internal css which is 
+ability of not adapting the same styles in all pages, that's why external css is needed
+so that every page can adopt the same style
+*/
+
+
+body {
+        background-color: #eaf6f6;
+}
+        
+hr{
+    background-color: white; /* this won't work as It'll have browser deafult css */
+    border-style: none;
+    border-top-style: dotted;
+    border-color: grey;
+    border-width: 5px;
+    width:5%;
+            
+}
+h1{
+    color: #66bfbf;
+}
+h2{
+    color:#66bfbf;
+}
+h3{
+    color: #66bfbf;
+}
